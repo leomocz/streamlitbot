@@ -8,7 +8,11 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Set a default model
 if "openai_model" not in st.session_state:
+<<<<<<< HEAD
     st.session_state["openai_model"] = "gpt-4-turbo"
+=======
+    st.session_state["openai_model"] = "gpt-3.5-turbo"
+>>>>>>> version5
 
 # Initialize chat history
 if "messages" not in st.session_state:
